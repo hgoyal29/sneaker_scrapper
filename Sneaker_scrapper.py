@@ -10,7 +10,6 @@ import re
 query = input("Search: ").strip().lower()
 page_count = int(input("How many pages you want to scrape?: "))
 
-
 folder_path = f"data/{query}"    #creates a folder for each query
 os.makedirs(folder_path, exist_ok=True)
 
